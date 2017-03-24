@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/pitlv2109/a_simple_repository_name/issues"
   },
-  "homepage": "https://github.com/pitlv2109/a_simple_repository_name#readme"
+  "homepage": "https://github.com/pitlv2109/a_simple_repository_name#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.1",
+    "nodemon": "^1.11.0"
+  }
 }
