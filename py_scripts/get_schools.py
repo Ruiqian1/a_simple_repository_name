@@ -17,6 +17,7 @@ def parse_text(urls):
         # In case of different prefix, check if the abbr starts with /
         if(len(abbr) > 0 and abbr[0]=='/'):
             abbr = abbr[1:]
+            
         # Write the lower case of the abbr into the text file
         text_file.write(abbr.lower())
         text_file.write("\n")
